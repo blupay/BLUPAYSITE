@@ -1,0 +1,27 @@
+{% extends "admin/base.html" %}
+{% load i18n %}
+
+{% block title %}{{ title }} | {% trans 'Blupay site admin' %}{% endblock %}
+{% block extrastyle %}
+<style>
+ #header{ background-color: #000A0;}
+ 
+ #branding h1 {color : white; }
+
+
+</style>
+ 
+{% endblock %}
+{% block branding %}
+<h1 id="site-name">{% trans 'BLUPAY administration' %}</h1>
+
+
+{% endblock %}
+
+
+{% block nav-global %}
+
+
+
+{% endblock %}
+
